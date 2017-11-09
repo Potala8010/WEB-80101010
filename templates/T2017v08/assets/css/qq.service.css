@@ -1,0 +1,113 @@
+.myservices-cs {
+    background: #DE6262;
+    position: fixed;
+    border-radius: 5px 0 0 5px;
+    top: 30%;
+    right: 0;
+    _position: absolute;
+    z-index: 999;
+    filter: progid: DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#E5333333', endColorstr='#E5333333');
+}
+
+.myservices-cs a {
+    color: #00A0E9;
+}
+
+.myservices-cs a:hover {
+    color: #ff8100;
+    text-decoration: none;
+}
+
+.myservices-cs .floatL {
+    width: 36px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+.myservices-cs .floatL a {
+    font-size: 0;
+    text-indent: -999em;
+    display: block;
+}
+
+.myservices-cs .floatR {
+    width: 160px;
+    float: left;
+    overflow: hidden;
+}
+
+.myservices-cs .floatR .cn {
+    background: #F7F7F7;
+    padding: 6px 0 10px 0;
+}
+
+.myservices-cs .cn h3 {
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+    line-height: 24px;
+    padding: 5px;
+    margin: 0;
+    font-family: 微软雅黑;
+    text-align: center;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.myservices-cs .cn ul {
+    margin: 0;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.myservices-cs .cn ul li {
+    line-height: 38px;
+    background-color: #f6f6f6;
+    height: 38px;
+    overflow: hidden;
+    padding-left: 12px;
+}
+
+.myservices-cs .cn ul li span {
+    color: #777;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.myservices-cs .cn ul li img {
+    vertical-align: middle;
+}
+
+.myservices-cs .btnOpen, .myservices-cs .btnCtn {
+    position: relative;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    background-image: url(../img/myservices.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 35px;
+    height: 146px;
+    padding: 8px;
+}
+
+.myservices-cs .btnOpen {
+    background-position: 0px 0;
+}
+
+.myservices-cs .btnCtn {
+    background-position: -35px 0;
+}
+
+.myservices-cs ul li.top {
+    border-bottom: solid #ACE5F9 1px;
+}
+
+.myservices-cs ul li.bot {
+    border-bottom: none;
+}
+.wxcode{text-align: center;margin-top: 10px}
+.wxcode span{text-align: center;display: block;margin:0 auto;margin-top: 6px}
